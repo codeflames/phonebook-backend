@@ -1,0 +1,24 @@
+{
+  "name": "phonebook-backend",
+  "version": "0.0.1",
+  "description": "Node application that returns a RESTful entries for a phonebook app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeflames/phonebook-backend.git"
+  },
+  "author": "Yereka Ueh-Kabari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeflames/phonebook-backend/issues"
+  },
+  "homepage": "https://github.com/codeflames/phonebook-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
