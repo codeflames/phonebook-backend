@@ -4,10 +4,10 @@ GET http://localhost:3001/info
 GET http://localhost:3001/api/persons
 
 ###
-GET http://localhost:3001/api/persons/1
+GET http://localhost:3001/api/persons/6480a089e039c9edcb617f5e
 
 ###
-DELETE http://localhost:3001/api/persons/616980
+DELETE http://localhost:3001/api/persons/6480d2b46811f4f55da7eecf
 
 ###
 POST http://localhost:3001/api/persons
@@ -18,3 +18,11 @@ Content-Type: application/json
   "number": "+2349031561331"
 }
 
+###
+PUT http://localhost:3001/api/persons/6480c4439bc4d9fb25cca84a
+Content-Type: application/json
+
+{
+  "name": "Yereka Ueh-Kabari",
+  "number": "+2348159524738"
+}
