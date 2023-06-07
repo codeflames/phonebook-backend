@@ -9,6 +9,7 @@ const app = express();
 morgan.token('body', function (req, res) { return JSON.stringify(req.body); });
 app.use(cors());
 app.use(express.json());
+app.use(express.static('build'));
 app.use(morgan('tiny'));
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :body'));
 
@@ -108,7 +109,7 @@ app.post('/api/persons', (request, response) => {
 
 
 
-const port = 3001;
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });

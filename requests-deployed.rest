@@ -1,0 +1,20 @@
+GET https://phonebook-app-wple.onrender.com/info
+
+###
+GET https://phonebook-app-wple.onrender.com/api/persons
+
+###
+GET https://phonebook-app-wple.onrender.com/api/persons/1
+
+###
+DELETE https://phonebook-app-wple.onrender.com/api/persons/739549
+
+###
+POST https://phonebook-app-wple.onrender.com/api/persons
+Content-Type: application/json
+
+{
+  "name": "Yereka Ueh-Kabari",
+  "number": "+2349031561331"
+}
+
