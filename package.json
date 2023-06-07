@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "engines": {
     "node": "18.16.0"
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/codeflames/phonebook-backend#readme",
   "devDependencies": {
+    "eslint": "^8.42.0",
     "nodemon": "^2.0.22"
   },
   "dependencies": {
