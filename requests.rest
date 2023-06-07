@@ -1,3 +1,4 @@
+
 GET http://localhost:3001/info
 
 ###
@@ -7,15 +8,15 @@ GET http://localhost:3001/api/persons
 GET http://localhost:3001/api/persons/6480a089e039c9edcb617f5e
 
 ###
-DELETE http://localhost:3001/api/persons/6480d2b46811f4f55da7eecf
+DELETE http://localhost:3001/api/persons/64810a3a1fb5a948cf98fcd9
 
 ###
 POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-  "name": "Yereka Ueh-Kabari",
-  "number": "+2349031561331"
+  "name": "eka Ueh-Kabari",
+  "number": "223-9031"
 }
 
 ###
